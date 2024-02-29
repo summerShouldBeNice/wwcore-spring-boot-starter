@@ -15,7 +15,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  * @author warmwind
  * @createTime 2024-02-28 23:40
  */
-@Configuration
+@AutoConfiguration
 @ConditionalOnClass(WwcoreRedisCache.class)
 public class WwcoreRedisAutoConfiguration {
 

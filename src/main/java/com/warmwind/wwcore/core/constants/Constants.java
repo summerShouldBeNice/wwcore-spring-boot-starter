@@ -4,7 +4,7 @@ package com.warmwind.wwcore.core.constants;
  * 通用常量
  *
  * @author warmwind
- * @createTime 2024-02-28 23:36
+ * @createTime 2024-02-28 23:34
  */
 public class Constants {
 
@@ -51,12 +51,12 @@ public class Constants {
     /**
      * 通用成功标识
      */
-    public static final String SUCCESS = "0";
+    public static final String SUCCESS = "1";
 
     /**
      * 通用失败标识
      */
-    public static final String FAIL = "1";
+    public static final String FAIL = "-1";
 
     /**
      * 登录成功
