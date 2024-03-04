@@ -55,6 +55,10 @@ public class BaseException extends RuntimeException {
         this(null, null, null, defaultMessage);
     }
 
+    /**
+     * 如果错误码为null，则
+     * @return
+     */
     @Override
     public String getMessage() {
         String message = null;
