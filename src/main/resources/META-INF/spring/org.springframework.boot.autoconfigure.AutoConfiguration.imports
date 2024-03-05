@@ -1,2 +1,3 @@
 com.warmwind.wwcore.redis.WwcoreRedisAutoConfiguration
 com.warmwind.wwcore.jwt.WwcoreJwtAutoConfiguration
+com.warmwind.wwcore.captcha.WwcoreCaptchaAutoConfigure
